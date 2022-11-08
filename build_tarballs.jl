@@ -7,7 +7,7 @@ version = v"1.0.0"
 
 # Collection of sources required to complete build
 sources = [
-    DirectorySource("./"; target = "lfr")
+    DirectorySource("./lfr"; target = "lfr")
 ]
 
 # Bash recipe for building across all platforms

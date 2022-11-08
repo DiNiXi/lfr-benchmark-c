@@ -5,8 +5,8 @@ project('c++ lfr binary', 'cpp',
 subdir('Sources')
 
 pkg_mod = import('pkgconfig')
-pkg_mod.generate(libraries : lfrbinlib,
+pkg_mod.generate(libraries : liblfrbenchmark,
                  version : '1.0',
-                 name : 'liblfrbin',
+                 name : 'liblfrbenchmark',
                  filebase : 'lfr',
                  description : 'A C++ library for Leiden.')
