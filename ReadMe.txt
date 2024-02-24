@@ -1,3 +1,6 @@
+This is a repackaging of the original from the authors mentioned in the papers below, 
+located at: https://sites.google.com/site/andrealancichinetti/benchmarks?authuser=0
+
 
 ``` sh
 julia --project=. --color=yes build_tarballs.jl x86_64-linux-gnu,x86_64-apple-darwin --deploy=DiNiXi/lfrbenchmark_jll.jl --verbose
