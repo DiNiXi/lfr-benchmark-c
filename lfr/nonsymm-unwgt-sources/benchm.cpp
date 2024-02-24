@@ -2069,12 +2069,12 @@ int* benchmark(bool excess, bool defect, int num_nodes,
 
 		if (nmin>nmax) {
 			cerr<<"\n***********************\nERROR: INVERTED COMMUNITY SIZE BOUNDS"<<endl;
-			return false;
+			return NULL;
 		}
 
 		if(nmax>num_nodes) {
 			cerr<<"\n***********************\nERROR: maxc BIGGER THAN THE NUMBER OF NODES"<<endl;
-			return false;
+			return NULL;
 		}
 
 
